@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #172238;
+    overflow-x: hidden;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #172238;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.logo img {
+    width: 200px;
+    padding-top: 15px;
+   
+}
+
+
+
+.container {
+        width: 100vw;
+        overflow:hidden;
+         height: 600px;
+         margin-top: 10px;
+    }
+
+#video {
+    opacity: 0.2;
+    margin-top: -70px;
+    width: 100vw;
+    
+
+
+}
+
+
+.school-one {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+margin-top: 40px;
+background-image: url("/images/regent_mansoura.jpg");
+background-size: cover;
+}
+
+.school-two {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+margin-top: 40px;
+background-image: url("/images/regent_west.jpg");
+background-size: cover;
+background-position-x: -145px;
+
+}
+
+.school-three {
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+margin-top: 40px;
+background-image: url("/images/regent_east.jpg");
+background-size: cover;
+background-position-x: -250px;
+
+
+}
+
+.school-four {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50%;
+margin-top: 40px;
+background-image: url("/images/regent_icon.png");
+background-size: cover;
+background-position-x: 50px;
+
+}
+
+.school-one:hover {
+    transform: translateY(-15px);
+    background-position-x: -50px;
+    transition: background-position-x 10s;
+}
+
+.school-two:hover {
+    transform: translateY(-15px);
+    background-position-x: -200px;
+    transition: background-position-x 10s;
+}
+
+.school-three:hover {
+    transform: translateY(-15px);
+    background-position-x: -100px;
+    transition: background-position-x 10s;
+}
+
+.school-four:hover {
+    transform: translateY(-15px);
+    background-position-x: 200px;
+    transition: background-position-x 10s;
+}
+
+h1, a {
+    color: white;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    text-decoration: none;
+    padding: 4px;
+
+
+}
+
+h1:hover {
+    color: #c21d28;
+    transform: scale(1.1);
+}
+ 
+.wrapper {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-gap: 20px 70px;
+    transform: translateY(-450px);
+    background-color: transparent;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+.wrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.school-one, .school-two, .school-three, .school-four {
+    width: 70vw;
+    height: 70vw; 
+}
+
+
+}
+
+@media screen and (min-width:768px) {
+    .schooltext-one {
+        order: 5;
+    }
+    
+    .schooltext-two {
+        order: 6;
+    }
+    
+    
+    .schooltext-three {
+        order: 7;
+    }
+    
+    
+    .schooltext-four {
+        order: 8;
+    }
+}
