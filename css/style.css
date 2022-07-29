@@ -38,8 +38,6 @@ nav {
     opacity: 0.2;
     margin-top: -70px;
     width: 100vw;
-    
-
 
 }
 
@@ -162,6 +160,19 @@ align-items: center;
     height: 70vw; 
 }
 
+
+.container {
+    overflow:hidden;
+     height: 60vh;
+     margin-top: 20px;
+}
+
+#video {
+    opacity: 0.2;
+    width: 150vh;
+position: relative;
+transform: translateX(-400px);
+}
 
 }
 
