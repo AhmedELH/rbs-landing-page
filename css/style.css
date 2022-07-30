@@ -198,6 +198,21 @@ transform: translateX(-400px);
 
 }
 
+@media screen and (max-width:768px) and (orientation: landscape) {
+    .wrapper {
+        
+        display:grid;
+        grid-template-columns: 300px 300px;
+        grid-row: auto auto;
+        transform: translateY(90px);
+        padding-bottom: 200px;
+
+     
+
+}
+
+}
+
 @media screen and (min-width:768px) {
     .schooltext-one {
         order: 5;
