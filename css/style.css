@@ -301,7 +301,7 @@ padding-top: 15px;
 }
 
 .school-one {
-    order: 0;
+    order: 1;
 }
 
 .school-two {
@@ -310,12 +310,12 @@ padding-top: 15px;
 
 
 .school-three {
-    order: 6;
+    order: 5;
 }
 
 
 .school-four {
-    order: 6;
+    order: 7;
 }
 
 h1, a {
