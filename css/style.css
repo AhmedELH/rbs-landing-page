@@ -154,7 +154,7 @@ h1:hover {
 
 
 
-@media screen and (max-width:1237px) {
+@media screen and (max-width:768px) {
 
 
 .wrapper {
@@ -168,6 +168,8 @@ transform: translateY(50px);
 
 .logo img {
     width: 30vh;
+    margin: 10px;
+
 }
 
 .school-one, .school-two, .school-three, .school-four {
@@ -194,7 +196,7 @@ transform: translateX(-400px);
 
 }
 
-@media screen and (min-width:1237px) {
+@media screen and (min-width:768px) {
     .schooltext-one {
         order: 5;
     }
