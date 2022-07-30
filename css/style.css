@@ -274,6 +274,7 @@ transform: translateY(-50px);
 .logo img {
 height: 10%;
 width: auto;
+padding-top: 15px;
 }
 
 }
