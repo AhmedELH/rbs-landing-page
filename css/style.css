@@ -277,10 +277,6 @@ width: auto;
 padding-top: 15px;
 }
 
-.school-one, .school-two, .school-three, .school-four {
-    width: 45vw;
-    height: 45vw; 
-}
 
 }
 
@@ -349,9 +345,5 @@ width: 25%;
 padding-top: 5px;
 }
 
-.school-one, .school-two, .school-three, .school-four {
-    width: 45vw;
-    height: 45vw; 
-}
 
 }
