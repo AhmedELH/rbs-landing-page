@@ -202,7 +202,7 @@ transform: translateX(-400px);
     .wrapper {
         
         display:grid;
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 300px 300px;
         grid-row: auto auto;
         transform: translateY(90px);
         padding-bottom: 200px;
