@@ -334,7 +334,8 @@ transform: translateY(-50px);
 }
 
 .logo {
-   padding-bottom: 50px;
+   height: 2rem;
+
 }
 .logo img {
 width: 30%;
