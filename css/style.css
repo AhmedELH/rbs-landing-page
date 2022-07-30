@@ -264,9 +264,11 @@ font-size: 2.2rem;
 
 #video {
     opacity: 0.2;
-    width: 165vh;
-transform: translateY(-50px);
+    width: 155vh;
+transform: translateY(-70px);
 transform: translateX(-400px);
+object-fit: cover;
+
 }
 
 .logo img {
