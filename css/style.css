@@ -265,7 +265,7 @@ font-size: 2.2rem;
 #video {
     opacity: 0.2;
     width: 155vh;
-transform: translateY(-70px);
+transform: translateY(-90px);
 transform: translateX(-400px);
 object-fit: cover;
 
