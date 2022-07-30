@@ -198,7 +198,7 @@ transform: translateX(-400px);
 
 }
 
-@media screen and (max-width:768px) and (orientation: landscape) {
+@media screen and (max-height: 575.98px) and (orientation: landscape) {
     .wrapper {
         
         display:grid;
