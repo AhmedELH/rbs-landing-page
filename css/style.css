@@ -236,6 +236,25 @@ transform: translateX(-400px);
     order: 6;
 }
 
+.schooltext-one {
+    order: 1;
+}
+
+.schooltext-two {
+    order: 3;
+}
+
+
+.schooltext-three {
+    order: 5;
+}
+
+
+.schooltext-four {
+    order: 7;
+}
+}
+
 h1, a {
 font-size: 2.2rem;
 }
@@ -269,8 +288,6 @@ width: 20%;
 padding-top: 5px;
 }
 
-
-}
 
 @media screen and (min-width:768px) {
     .schooltext-one {
