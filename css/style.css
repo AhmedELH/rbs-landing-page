@@ -272,7 +272,8 @@ transform: translateY(-50px);
 
 }
 .logo img {
-height: 25%;
+height: 15%;
+width: auto;
 }
 
 }
