@@ -1,17 +1,19 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+(function($) {
+	var $window = $(window);
+	var $videoWrap = $('.video-wrap');
+	var $video = $('.video');
+	var videoHeight = $video.outerHeight();
 
-// Get the navbar
-var nav = document.getElementById("nav");
-
-// Get the offset position of the nav
-var sticky = nav.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    nav.classList.add("sticky")
-  } else {
-    nav.classList.remove("sticky");
-  }
-}
+	$window.on('scroll',  function() {
+		var windowScrollTop = $window.scrollTop();
+		var videoBottom = videoHeight + $videoWrap.offset().top;
+		
+		if (windowScrollTop > videoBottom) {
+			$videoWrap.height(videoHeight);
+			$video.addClass('stuck');
+		} else {
+			$videoWrap.height('auto');
+			$video.removeClass('stuck');
+		}
+	});
+}(jQuery));
