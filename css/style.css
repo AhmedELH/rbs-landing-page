@@ -40,7 +40,7 @@ margin-top: 10px;
         width: 100vw;
         overflow:hidden;
          height: 600px;
-         margin-top: 10px;
+         padding-top: 23px;
     }
 
 #video {
@@ -179,7 +179,7 @@ transform: translateY(50px);
 .container {
     overflow:hidden;
      height: 150vh;
-     margin-top: 20px;
+     padding-top: 20px;
      object-fit: fill;
     position: fixed;
 }
