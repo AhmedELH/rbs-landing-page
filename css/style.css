@@ -154,7 +154,7 @@ h1:hover {
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1237px) {
 
 
 .wrapper {
@@ -194,7 +194,7 @@ transform: translateX(-400px);
 
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1237px) {
     .schooltext-one {
         order: 5;
     }
