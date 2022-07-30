@@ -206,6 +206,8 @@ transform: translateX(-400px);
         grid-row: auto auto;
         transform: translateY(90px);
         padding-bottom: 200px;
+        grid-gap: 40px 90px;
+
 
      
 
@@ -347,74 +349,6 @@ object-fit: cover;
 height: 10%;
 width: auto;
 padding-top: 15px;
-}
-
-
-}
-
-@media screen and (min-width:768px) and (max-width:1295px) and (orientation: landscape) {
-    
-    .wrapper {
-        
-        display:grid;
-        grid-template-columns: 300px 300px;
-        grid-row: auto auto;
-        transform: translateY(90px);
-        padding-bottom: 200px;
-
-     
-
-}
-
-.school-one {
-    order: 0;
-}
-
-.school-two {
-    order: 3;
-}
-
-
-.school-three {
-    order: 6;
-}
-
-
-.school-four {
-    order: 6;
-}
-
-h1, a {
-font-size: 2.2rem;
-}
-
-.container {
-    overflow:hidden;
-     height: 150vh;
-     padding-top: 20px;
-     object-fit: fill;
-    position: fixed;
-}
-
-#video {
-    opacity: 0.2;
-    width: 100vw;
-transform: translateX(-400px);
-transform: translateY(-50px);
-
-
-
-}
-
-.logo {
-   height: 9.2rem;
-   padding: 0;
-   margin: 0;
-
-}
-.logo img {
-width: 20%;
-padding-top: 5px;
 }
 
 
