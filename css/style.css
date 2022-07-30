@@ -198,21 +198,6 @@ transform: translateX(-400px);
 
 }
 
-@media screen and (max-height: 575.98px) and (orientation: landscape) {
-    .wrapper {
-        
-        display:grid;
-        grid-template-columns: 200px 200px;
-        grid-row: auto auto;
-        transform: translateY(90px);
-        padding-bottom: 200px;
-
-     
-
-}
-
-}
-
 @media screen and (min-width:768px) {
     .schooltext-one {
         order: 5;
@@ -279,24 +264,34 @@ font-size: 2.2rem;
 
 #video {
     opacity: 0.2;
-    width: 100vw;
+    width: 155vh;
+transform: translateY(-90px);
 transform: translateX(-400px);
-transform: translateY(-50px);
-
-
+object-fit: cover;
 
 }
 
-.logo {
-   height: 9.2rem;
-   padding: 0;
-   margin: 0;
-
-}
 .logo img {
-width: 20%;
-padding-top: 5px;
+height: 10%;
+width: auto;
+padding-top: 15px;
 }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1295px) and (orientation: landscape) {
+    
+    .wrapper {
+        
+        display:grid;
+        grid-template-columns: 300px 300px;
+        grid-row: auto auto;
+        transform: translateY(90px);
+        padding-bottom: 200px;
+
+     
+
 }
 
 .school-one {
@@ -331,16 +326,24 @@ font-size: 2.2rem;
 
 #video {
     opacity: 0.2;
-    width: 155vh;
-transform: translateY(-90px);
+    width: 100vw;
 transform: translateX(-400px);
-object-fit: cover;
+transform: translateY(-50px);
+
+
 
 }
 
+.logo {
+   height: 9.2rem;
+   padding: 0;
+   margin: 0;
+
+}
 .logo img {
-height: 10%;
-width: auto;
-padding-top: 15px;
+width: 20%;
+padding-top: 5px;
 }
 
+
+}
