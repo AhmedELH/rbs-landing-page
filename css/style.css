@@ -201,12 +201,7 @@ transform: translateX(-400px);
 @media screen and (max-width:768px) and (orientation:landscape) {
     .wrapper {
         
-        display:grid;
-        grid-template-columns: 250px 250px;
-        grid-row: auto auto;
-        transform: translateY(90px);
-        padding-bottom: 200px;
-        grid-gap: 40px 90px;
+        display:flex;
 
 
      
