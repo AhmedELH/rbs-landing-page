@@ -223,7 +223,7 @@ transform: translateX(-400px);
     .wrapper {
         
         display:grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 400px 400px;
         grid-row: auto auto;
         transform: translateY(90px);
         padding-bottom: 200px;
@@ -285,7 +285,7 @@ padding-top: 15px;
     .wrapper {
         
         display:grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 400px 400px;
         grid-row: auto auto;
         transform: translateY(90px);
         padding-bottom: 200px;
