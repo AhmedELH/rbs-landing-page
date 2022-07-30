@@ -14,15 +14,24 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: #172238;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     color: white;
+
+
+}
+
+.logo {
+    width: 100vw;
+    height: 15vh;
+position: fixed;
+z-index: 1;
 }
 
 .logo img {
     width: 200px;
-    padding-top: 15px;
-   
+    position: fixed;
+background-color: transparent;
+top: 0;   
+margin-top: 10px;
 }
 
 
@@ -157,6 +166,10 @@ transform: translateY(50px);
 
 }
 
+.logo img {
+    width: 250px;
+}
+
 .school-one, .school-two, .school-three, .school-four {
     width: 70vw;
     height: 70vw; 
@@ -165,7 +178,7 @@ transform: translateY(50px);
 
 .container {
     overflow:hidden;
-     height: 65vh;
+     height: 150vh;
      margin-top: 20px;
      object-fit: fill;
     position: fixed;
@@ -173,7 +186,7 @@ transform: translateY(50px);
 
 #video {
     opacity: 0.2;
-    width: 150vh;
+    width: 190vh;
 transform: translateX(-400px);
 
 
