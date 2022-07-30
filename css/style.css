@@ -290,6 +290,8 @@ padding-top: 15px;
         grid-row: auto auto;
         transform: translateY(90px);
         padding-bottom: 200px;
+        grid-gap: 20px 40px;
+
 
      
 
