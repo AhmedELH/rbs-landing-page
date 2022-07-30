@@ -277,6 +277,11 @@ width: auto;
 padding-top: 15px;
 }
 
+.school-one, .school-two, .school-three, .school-four {
+    width: 80vw;
+    height: 80vw; 
+}
+
 }
 
 @media screen and (min-width:768px) and (max-width:1295px) and (orientation: landscape) {
@@ -342,6 +347,11 @@ transform: translateY(-50px);
 .logo img {
 width: 25%;
 padding-top: 5px;
+}
+
+.school-one, .school-two, .school-three, .school-four {
+    width: 80vw;
+    height: 80vw; 
 }
 
 }
