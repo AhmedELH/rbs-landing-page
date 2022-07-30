@@ -318,6 +318,24 @@ padding-top: 15px;
     order: 7;
 }
 
+.schooltext-one {
+    order: 2;
+}
+
+.schooltext-two {
+    order: 4;
+}
+
+
+.schooltext-three {
+    order: 6;
+}
+
+
+.schooltext-four {
+    order: 8;
+}
+
 h1, a {
 font-size: 2.2rem;
 }
