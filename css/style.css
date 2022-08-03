@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color: #172238;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -52,8 +53,8 @@ margin-top: 10px;
 
 
 .school-one {
-    height: 300px;
-    width: 300px;
+    height: 21vw;
+    width: 21vw;
     background-color: #bbb;
     border-radius: 50%;
 margin-top: 40px;
@@ -62,8 +63,8 @@ background-size: cover;
 }
 
 .school-two {
-    height: 300px;
-    width: 300px;
+    height: 21vw;
+    width: 21vw;
     background-color: #bbb;
     border-radius: 50%;
 margin-top: 40px;
@@ -132,7 +133,6 @@ h1, a {
     align-items: center;
     font-size: 1.9rem;
     text-decoration: none;
-    padding: 4px;
 
 
 }
@@ -144,11 +144,11 @@ h1:hover {
  
 .wrapper {
     display: grid;
-    grid-template-columns: 20vw 20vw;
-    grid-gap: 20px 70px;
+    grid-template-columns: 21vw 21vw;
+    grid-gap: 20px 20px;
     transform: translateY(-500px);
     background-color: transparent;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
 }
 
@@ -156,6 +156,9 @@ h1:hover {
 
 @media screen and (max-width:768px) {
 
+* {
+    overflow-y: scroll;
+}
 
 .wrapper {
 display: flex;
