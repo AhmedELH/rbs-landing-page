@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: #172238;
-    overflow-x: hidden;
     overflow-y: hidden;
 
 }
@@ -60,6 +59,7 @@ margin-top: 10px;
 margin-top: 40px;
 background-image: url("/images/regent_mansoura.jpg");
 background-size: cover;
+box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .school-two {
@@ -70,8 +70,8 @@ background-size: cover;
 margin-top: 40px;
 background-image: url("/images/regent_west.jpg");
 background-size: cover;
-background-position-x: -150px;
-
+background-position-x: -158px;
+box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 .school-three {
@@ -101,13 +101,13 @@ background-position-x: 50px;
 
 .school-one:hover {
     transform: translateY(-15px);
-    background-position-x: -70px;
-    transition: background-position-x 10s;
+    background-position-y: -70px;
+    transition: background-position-y 10s;
 }
 
 .school-two:hover {
     transform: translateY(-15px);
-    background-position-x: -40px;
+    background-position-x: -200px;
     transition: background-position-x 10s;
 }
 
@@ -133,14 +133,12 @@ h1, a {
     align-items: center;
     font-size: 1.9rem;
     text-decoration: none;
+    
 
 
 }
 
-h1:hover {
-    color: #c21d28;
-    transform: scale(1.1);
-}
+
  
 .wrapper {
     display: grid;
@@ -152,7 +150,42 @@ h1:hover {
     align-content: center;
 }
 
+.hover {
+    --c: #c21d28; /* the color */
 
+    
+    color: #fff;
+    background: 
+      linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .hover:hover {
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem ;
+   
+
+    --_p: 100%
+  }
+  
+  
+  .hover2 {
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #c21d28; /* the color */
+    
+    color: #fff;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .hover2:hover {
+    --_p: 100%
+  }
 
 @media screen and (max-width:768px) {
 
